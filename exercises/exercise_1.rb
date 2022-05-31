@@ -8,8 +8,8 @@ puts "----------"
 
 Store.create(name: "Vancouver", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
 
-Store.create(name: "Calgary", annual_revenue: 1260000, mens_apparel: true, womens_apparel: true)
+Store.create(name: "Calgary", annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
 
-Store.create(name: "Moscow", annual_revenue: 190000, mens_apparel: true, womens_apparel: true)
+Store.create(name: "London", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 
 puts Store.count
